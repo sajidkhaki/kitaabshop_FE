@@ -1,6 +1,6 @@
-//import { API } from '../config'
+import { API } from '../config'
 
-let API = "http://localhost:8080/api";
+//let API = "http://localhost:8080/api";
 
 export const addAdminCategory = (userId, token, category) => {
   return fetch(`${API}/category/create/${userId}`, {

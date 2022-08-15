@@ -33,7 +33,7 @@ const AdminDashboard = () => {
                 <ul className="list-group">
                     <li className="list-group-item">Name : {name}</li>
                     <li className="list-group-item">Email : {email}</li>
-                    <li className="list-group-item">Role : {role === 1 ? "Admin" : "Customer"}</li>
+                    <li className="list-group-item">Role : {role === 1 ? "Admin" : "N/A"}</li>
                 </ul>
             </div>
         )

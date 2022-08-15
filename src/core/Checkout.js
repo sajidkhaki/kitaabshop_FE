@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import { getBraintreeToken, processPayment, createOrder } from './ApiCore'
 import { emptyCart } from './cartHelpers'
 import { isAuthenticated } from '../auth/index'
-import { useEffect } from 'react';
 import 'braintree-web'
 import DropIn from "braintree-web-drop-in-react";
 

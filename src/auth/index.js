@@ -1,6 +1,6 @@
-//import { API } from '../config'
+import { API } from '../config'
 
-let API = 'http://localhost:8080/api'
+//let API = 'http://localhost:8080/api'
 
 export const SignupData = (userData) => {
     console.log("Data", userData)
